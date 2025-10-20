@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- English Pages -->
+  <url>
+    <loc>https://jonis2004.github.io/madagascar-history-site/index.html</loc>
+  </url>
+  <url>
+    <loc>https://jonis2004.github.io/madagascar-history-site/library.html</loc>
+  </url>
+  <url>
+    <loc>https://jonis2004.github.io/madagascar-history-site/gallery.html</loc>
+  </url>
+  <url>
+    <loc>https://jonis2004.github.io/madagascar-history-site/about.html</loc>
+  </url>
+
+  <!-- French Pages -->
+  <url>
+    <loc>https://jonis2004.github.io/madagascar-history-site/index-fr.html</loc>
+  </url>
+  <url>
+    <loc>https://jonis2004.github.io/madagascar-history-site/library-fr.html</loc>
+  </url>
+  <url>
+    <loc>https://jonis2004.github.io/madagascar-history-site/gallery-fr.html</loc>
+  </url>
+  <url>
+    <loc>https://jonis2004.github.io/madagascar-history-site/about-fr.html</loc>
+  </url>
+
+  <!-- Malagasy Pages (future-ready) -->
+  <url>
+    <loc>https://jonis2004.github.io/madagascar-history-site/index-mg.html</loc>
+  </url>
+  <url>
+    <loc>https://jonis2004.github.io/madagascar-history-site/library-mg.html</loc>
+  </url>
+  <url>
+    <loc>https://jonis2004.github.io/madagascar-history-site/gallery-mg.html</loc>
+  </url>
+  <url>
+    <loc>https://jonis2004.github.io/madagascar-history-site/about-mg.html</loc>
+  </url>
+
+</urlset>
