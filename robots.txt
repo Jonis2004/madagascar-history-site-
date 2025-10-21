@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jonis2004.github.io/madagascar-history-site/sitemap.xml
