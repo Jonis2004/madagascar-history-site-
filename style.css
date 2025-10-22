@@ -6,22 +6,26 @@ body {
 }
 
 /* Hero banner background */
-.hero {
-  background-image: url('baobab 2.webp'); /* exact filename */
+ .hero {
+  background-image: url('baobab 2.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 4rem 1rem;
+  height: 100vh; /* full screen height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   color: white;
 }
 
 .hero-text {
-  background-color: rgba(0, 0, 0, 0.5); /* optional contrast */
-  padding: 1rem;
-  border-radius: 8px;
-  max-width: 600px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 700px;
   margin: auto;
+  font-size: 1.1rem;
 }
 
 header h1 {
