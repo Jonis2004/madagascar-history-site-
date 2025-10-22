@@ -15,54 +15,54 @@ header {
   background-blend-mode: darken;
   color: white;
   text-align: center;
-  padding: 60px 20px;
+  padding: 3.75rem 1.25rem; /* 60px 20px */
 }
 
 /* Navigation bar */
 nav {
   background-color: #004225;
   text-align: center;
-  padding: 10px;
+  padding: 0.625rem; /* 10px */
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  margin: 0 15px;
+  margin: 0 0.9375rem; /* 15px */
   font-weight: bold;
-  font-size: 20px; /* 👈 This makes the text bigger */
-  padding: 8px 12px; /* 👈 Optional: improves mobile tap area */
+  font-size: 1.5rem; /* 24px */
+  padding: 0.5rem 0.75rem; /* 8px 12px */
 }
 
 /* Language switcher */
 .language-switcher {
   text-align: center;
-  padding: 10px;
+  padding: 0.625rem; /* 10px */
   background-color: #e0e0e0;
 }
 
 .language-switcher a {
-  margin: 0 10px;
+  margin: 0 0.625rem; /* 10px */
   text-decoration: none;
   color: #004225;
   font-weight: bold;
-  font-size: 18px; /* 👈 Also enlarged for visibility */
+  font-size: 1.125rem; /* 18px */
 }
 
 /* Intro section */
 .intro {
-  padding: 40px 20px;
+  padding: 2.5rem 1.25rem; /* 40px 20px */
   text-align: center;
 }
 
 .intro h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 1.5rem; /* 24px */
+  margin-bottom: 0.625rem; /* 10px */
 }
 
 .intro p {
-  font-size: 16px;
-  max-width: 700px;
+  font-size: 1rem; /* 16px */
+  max-width: 43.75rem; /* 700px */
   margin: auto;
   line-height: 1.6;
 }
