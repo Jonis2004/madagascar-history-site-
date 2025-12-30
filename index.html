@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <title>Madagascar History</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-<link rel="icon" href="favicon-32x32.png" type="image/png">
-<link rel="icon" href="favicon-16x16.png" type="image/png">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="icon" href="favicon-32x32.png" type="image/png">
+  <link rel="icon" href="favicon-16x16.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Discover the roots of the Malagasy people through 3000 years ago within these books:protosinaitic languages, origins of the Malagasy names, the peuple de la mer">
+  <meta name="description" content="Discover the roots of the Malagasy people through 3000 years ago within these books: protosinaitic languages, origins of the Malagasy names, the peuple de la mer">
   <style>
     body {
       margin: 0;
@@ -21,7 +21,7 @@
       background-image: url("baobab 2.webp");
       background-size: cover;
       background-position: center;
-      background-color: rgba(0, 0, 0, 0.4); /* dark overlay */
+      background-color: rgba(0, 0, 0, 0.4);
       background-blend-mode: darken;
       color: white;
       text-align: center;
@@ -54,21 +54,63 @@
       font-weight: bold;
     }
 
-    .intro {
+    .intro, .whats-new, .share, .contact {
       padding: 40px 20px;
       text-align: center;
     }
 
-    .intro h2 {
+    .intro h2, .whats-new h2, .share h2, .contact h2 {
       font-size: 24px;
       margin-bottom: 10px;
     }
 
-    .intro p {
+    .intro p, .whats-new p {
       font-size: 16px;
       max-width: 700px;
       margin: auto;
       line-height: 1.6;
+    }
+
+    .share-buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 15px;
+      background-color: #004225;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .contact form {
+      max-width: 500px;
+      margin: auto;
+      text-align: left;
+    }
+
+    .contact label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    .contact input, .contact textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #004225;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
     }
   </style>
 </head>
@@ -94,9 +136,43 @@
 
   <div class="intro">
     <h2>Welcome</h2>
-    <p>Welcome to Madagascar History. Here, we tell you all about the ancestors of the Malagasy people, the origins of the foko and the language. Discover within these 6 books the History of the origins of Madagasikara.
-</p>
+    <p>Welcome to Madagascar History. Here, we tell you all about the ancestors of the Malagasy people, the origins of the foko and the language. Discover within these 6 books the History of the origins of Madagasikara.</p>
+  </div>
+
+  <!-- What's New Section -->
+  <div class="whats-new">
+    <h2>What's New</h2>
+    <p>✨ English versions added to the Library.<br>
+       📚 New book available in Eng and Fr: Joseph.<br>
+       🌍 You can send us messages.</p>
+  </div>
+
+  <!-- Share Buttons -->
+  <div class="share">
+    <h2>Share This Site</h2>
+    <div class="share-buttons">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://jonis2004.github.io/madagascar-history-site-/" target="_blank">Facebook</a>
+      <a href="https://twitter.com/intent/tweet?url=https://jonis2004.github.io/madagascar-history-site-/&text=Discover%20Madagascar%20History!" target="_blank">Twitter</a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://jonis2004.github.io/madagascar-history-site-/" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/https://formspree.io/f/xojqoyyy" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="_replyto" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
   </div>
 
 </body>
-</html>
+    </html>
