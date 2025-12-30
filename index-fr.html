@@ -4,12 +4,11 @@
   <meta charset="UTF-8">
   <title>Histoire de Madagascar</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-<link rel="icon" href="favicon-32x32.png" type="image/png">
-<link rel="icon" href="favicon-16x16.png" type="image/png">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="icon" href="favicon-32x32.png" type="image/png">
+  <link rel="icon" href="favicon-16x16.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Préserver la mémoire, l'identité et le patrimoine culturel de Madagascar.">
-  <meta name="google-site-verification" content="2r_S7_xJfPCn1UlLLoL" />
+  <meta name="description" content="Découvrez les racines du peuple malgache il y a 3000 ans à travers ces livres : langues protosinaïtiques, origines des noms malgaches, le peuple de la mer">
   <style>
     body {
       margin: 0;
@@ -55,21 +54,63 @@
       font-weight: bold;
     }
 
-    .intro {
+    .intro, .whats-new, .share, .contact {
       padding: 40px 20px;
       text-align: center;
     }
 
-    .intro h2 {
+    .intro h2, .whats-new h2, .share h2, .contact h2 {
       font-size: 24px;
       margin-bottom: 10px;
     }
 
-    .intro p {
+    .intro p, .whats-new p {
       font-size: 16px;
       max-width: 700px;
       margin: auto;
       line-height: 1.6;
+    }
+
+    .share-buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 15px;
+      background-color: #004225;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .contact form {
+      max-width: 500px;
+      margin: auto;
+      text-align: left;
+    }
+
+    .contact label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    .contact input, .contact textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #004225;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
     }
   </style>
 </head>
@@ -77,14 +118,14 @@
 
   <header>
     <h1>Histoire de Madagascar</h1>
-    <p>Préserver la mémoire, l'identité et le patrimoine culturel</p>
+    <p>Préserver la mémoire, l’identité et le patrimoine culturel</p>
   </header>
 
   <nav>
-    <a href="index-fr.html">Accueil</a>
-    <a href="library-fr.html">Bibliothèque</a>
-    <a href="gallery-fr.html">Galerie</a>
-    <a href="about-fr.html">À propos</a>
+    <a href="index.html">Accueil</a>
+    <a href="library.html">Bibliothèque</a>
+    <a href="gallery.html">Galerie</a>
+    <a href="about.html">À propos</a>
   </nav>
 
   <div class="language-switcher">
@@ -98,5 +139,40 @@
     <p>Bienvenue sur Histoire de Madagascar. Ici, nous vous racontons tout sur les ancêtres du peuple malgache, les origines des foko et de la langue. Découvrez dans ces 6 livres l’histoire des origines de Madagasikara.</p>
   </div>
 
+  <!-- Quoi de neuf -->
+  <div class="whats-new">
+    <h2>Quoi de neuf</h2>
+    <p>✨ Nouvelles versions en anglais ajoutées à la Bibliothèque.<br>
+       📚 Nouveau livre disponible en anglais et français : Joseph.<br>
+       🌍 Vous pouvez désormais nous envoyer des messages.</p>
+  </div>
+
+  <!-- Boutons de partage -->
+  <div class="share">
+    <h2>Partager ce site</h2>
+    <div class="share-buttons">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://jonis2004.github.io/madagascar-history-site-/" target="_blank">Facebook</a>
+      <a href="https://twitter.com/intent/tweet?url=https://jonis2004.github.io/madagascar-history-site-/&text=Découvrez%20l'Histoire%20de%20Madagascar!" target="_blank">Twitter</a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://jonis2004.github.io/madagascar-history-site-/" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+
+  <!-- Formulaire de contact -->
+  <div class="contact">
+    <h2>Contactez-moi</h2>
+    <form action="https://formspree.io/f/xojqoyyy" method="POST">
+      <label for="name">Nom</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="_replyto" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </div>
+
 </body>
-</html>
+  </html>
